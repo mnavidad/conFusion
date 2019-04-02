@@ -36,6 +36,7 @@ import { LeaderService } from './services/leader.service';
 import { PromotionService } from './services/promotion.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { LoginComponent } from './login/login.component';
+import { MatSlider, MatSliderModule } from '@angular/material';
 
 
 
@@ -75,7 +76,7 @@ import { LoginComponent } from './login/login.component';
     MatSelectModule,
     MatSlideToggleModule,
     MatProgressSpinnerModule,
-
+    MatSliderModule,
     AppRoutingModule,
     MatDialogModule
 
