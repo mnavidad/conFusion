@@ -41,6 +41,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { baseURL } from "./shared/baseurl";
 import { MatSlider, MatSliderModule } from '@angular/material';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 
@@ -54,7 +55,8 @@ import { MatSlider, MatSliderModule } from '@angular/material';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    HighlightDirective
   ],
 
   exports:[
